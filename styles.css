@@ -1,6 +1,10 @@
 /*  your css code here. If applicable */
 .grid-container{
+
+	width: 1000px;
 	display:grid;
+
+	
 
 	grid-template-rows:repeat(3,1fr);
 	grid-template-columns:repeat(3,1fr);
@@ -12,6 +16,6 @@
 	background-color:#f2f2f2;
 	border:1px solid #ccc;
 	text-align:center;
-	width:321px;
+	
 	
 }
